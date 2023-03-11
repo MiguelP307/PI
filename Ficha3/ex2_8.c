@@ -156,12 +156,9 @@ void pascal(int v[],int N){
 
     pascal(temp,lastLen);
 
-    for(index = 1; index < lastLen; index++){
-
+    for(index = 1; index < lastLen; index++)
         v[index] = temp[index-1] + temp[index];
-
-    }
-
+    
     v[lastLen] = 1;
 
     for(index = 0; index < N; index++){
