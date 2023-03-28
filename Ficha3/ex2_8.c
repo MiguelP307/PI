@@ -38,8 +38,8 @@ int main(){
     printf("O numero maximo do array e %d com return de %d\n",max, returned);
 
 
-    quadrados(q,len);
     pascal(q,len);
+    quadrados(q,len);
     printf("Array dos quadrados: ");
     index = 0;
     while(index < len){
